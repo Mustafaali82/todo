@@ -1,0 +1,36 @@
+.todoitem {
+  /* background-color: #fd746c; */
+  background: linear-gradient(to left, #8e0e00, #1f1c18);
+  min-width: 500px;
+  margin: 20px 0;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.img {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-container {
+  display: flex;
+  gap: 10px;
+}
+
+p{
+    outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .todoitem {
+    min-width: 300px;
+    margin-top: 0px;
+  }
+}

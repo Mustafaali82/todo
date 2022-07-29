@@ -1,0 +1,12 @@
+.navbar {
+  width: 100vw;
+  height: 4em;
+  background-color: #8e0e00;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
